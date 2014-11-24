@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+G:\PRODUCTS\INERTIAL SENSING_nordic\SOFTWARE\SOURCE\nrf51_sdk_v5_2_0_39364\nrf51822\Board\nrf6310\s110\ble_app_quote_srv\arm\ble_app_quote_srv.uvproj
+Project File Date:  11/24/2014
+
+<h2>Output:</h2>
+Rebuild target 'nrf51822_xxaa_s110 (256K)'
+assembling arm_startup_nrf51.s...
+creating preprocessor file for system_nrf51.c...
+compiling system_nrf51.c...
+creating preprocessor file for main.c...
+compiling main.c...
+..\main.c(117): warning:  #550-D: variable "err_code" was set but never used
+        static uint32_t err_code = 0;
+..\main.c(118): warning:  #550-D: variable "file_name" was set but never used
+        static uint8_t file_name[100] = {0}, i =0;
+..\main.c(204): warning:  #177-D: variable "err_code" was declared but never referenced
+                uint32_t err_code;
+..\main.c(286): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(296): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(394): warning:  #177-D: variable "err_code" was declared but never referenced
+      uint32_t err_code;
+..\main.c(391): warning:  #177-D: function "timers_start" was declared but never referenced
+  static void timers_start(void)
+..\main.c(579): warning:  #177-D: function "scheduler_init" was declared but never referenced
+  static void scheduler_init(void)
+..\main.c: 8 warnings, 0 errors
+creating preprocessor file for ble_QUOTE.c...
+compiling ble_QUOTE.c...
+creating preprocessor file for ble_srv_common.c...
+compiling ble_srv_common.c...
+creating preprocessor file for ble_quote_srv.c...
+compiling ble_quote_srv.c...
+creating preprocessor file for ble_error_log.c...
+compiling ble_error_log.c...
+creating preprocessor file for pstorage.c...
+compiling pstorage.c...
+creating preprocessor file for crc16.c...
+compiling crc16.c...
+creating preprocessor file for ble_advdata.c...
+compiling ble_advdata.c...
+creating preprocessor file for app_scheduler.c...
+compiling app_scheduler.c...
+creating preprocessor file for app_timer.c...
+compiling app_timer.c...
+creating preprocessor file for ble_conn_params.c...
+compiling ble_conn_params.c...
+creating preprocessor file for softdevice_handler.c...
+compiling softdevice_handler.c...
+creating preprocessor file for app_button.c...
+compiling app_button.c...
+creating preprocessor file for app_gpiote.c...
+compiling app_gpiote.c...
+creating preprocessor file for ble_debug_assert_handler.c...
+compiling ble_debug_assert_handler.c...
+creating preprocessor file for nrf_delay.c...
+compiling nrf_delay.c...
+linking...
+Program Size: Code=15060 RO-data=244 RW-data=188 ZI-data=6452  
+FromELF: creating hex file...
+".\_build\ble_app_quote_srv.axf" - 0 Error(s), 8 Warning(s).
+</pre>
+</body>
+</html>
+tatic uint8_t file_name[100] = {0}, i =0;
+..\main.c(204): warning:  #177-D: variable "err_code" was declared but never referenced
+                uint32_t err_code;
+..\main.c(286): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(296): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(314): error:  #20: identifier "m_inert" is undefined
+          err_code = ble_quote_init(&m_inert, &init);
+..\main.c(400): error:  #20: identifier "m_accel_id" is undefined
+          err_code = app_timer_start(m_accel_id, ACCEL_MEAS_INTERVAL, NULL);
+..\main.c(400): error:  #20: identifier "ACCEL_MEAS_INTERVAL" is undefined
+          err_code = app_timer_start(m_accel_id, ACCEL_MEAS_INTERVAL, NULL);
+..\main.c(403): error:  #20: identifier "m_magn_id" is undefined
+                err_code = app_timer_start(m_magn_id, MAGN_MEAS_INTERVAL, NULL);
+..\main.c(403): error:  #20: identifier "MAGN_MEAS_INTERVAL" is undefined
+                err_code = app_timer_start(m_magn_id, MAGN_MEAS_INTERVAL, NULL);
+..\main.c(406): error:  #20: identifier "m_gyro_id" is undefined
+                err_code = app_timer_start(m_gyro_id, GYRO_MEAS_INTERVAL, NULL);
+..\main.c(406): error:  #20: identifier "GYRO_MEAS_INTERVAL" is undefined
+                err_code = app_timer_start(m_gyro_id, GYRO_MEAS_INTERVAL, NULL);
+..\main.c(546): error:  #20: identifier "m_inert" is undefined
+          ble_quote_on_ble_evt(&m_inert, p_ble_evt);
+..\main.c(586): warning:  #177-D: function "scheduler_init" was declared but never referenced
+  static void scheduler_init(void)
+..\main.c: 6 warnings, 8 errors
+"..\main.c" - 8 Error(s), 6 Warning(s).
+creating preprocessor file for main.c...
+compiling main.c...
+..\main.c(95): error:  #20: identifier "ble_inert_t" is undefined
+  static ble_inert_t                                                                                    m_inert;
+..\main.c(117): warning:  #550-D: variable "err_code" was set but never used
+        static uint32_t err_code = 0;
+..\main.c(118): warning:  #550-D: variable "file_name" was set but never used
+        static uint8_t file_name[100] = {0}, i =0;
+..\main.c(204): warning:  #177-D: variable "err_code" was declared but never referenced
+                uint32_t err_code;
+..\main.c(286): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(296): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(400): error:  #20: identifier "m_accel_id" is undefined
+          err_code = app_timer_start(m_accel_id, ACCEL_MEAS_INTERVAL, NULL);
+..\main.c(400): error:  #20: identifier "ACCEL_MEAS_INTERVAL" is undefined
+          err_code = app_timer_start(m_accel_id, ACCEL_MEAS_INTERVAL, NULL);
+..\main.c(403): error:  #20: identifier "m_magn_id" is undefined
+                err_code = app_timer_start(m_magn_id, MAGN_MEAS_INTERVAL, NULL);
+..\main.c(403): error:  #20: identifier "MAGN_MEAS_INTERVAL" is undefined
+                err_code = app_timer_start(m_magn_id, MAGN_MEAS_INTERVAL, NULL);
+..\main.c(406): error:  #20: identifier "m_gyro_id" is undefined
+                err_code = app_timer_start(m_gyro_id, GYRO_MEAS_INTERVAL, NULL);
+..\main.c(406): error:  #20: identifier "GYRO_MEAS_INTERVAL" is undefined
+                err_code = app_timer_start(m_gyro_id, GYRO_MEAS_INTERVAL, NULL);
+..\main.c(586): warning:  #177-D: function "scheduler_init" was declared but never referenced
+  static void scheduler_init(void)
+..\main.c: 6 warnings, 7 errors
+"..\main.c" - 7 Error(s), 6 Warning(s).
+creating preprocessor file for main.c...
+compiling main.c...
+..\main.c(95): error:  #20: identifier "ble_inert_t" is undefined
+  static ble_inert_t                                                                                    m_inert;
+..\main.c(117): warning:  #550-D: variable "err_code" was set but never used
+        static uint32_t err_code = 0;
+..\main.c(118): warning:  #550-D: variable "file_name" was set but never used
+        static uint8_t file_name[100] = {0}, i =0;
+..\main.c(204): warning:  #177-D: variable "err_code" was declared but never referenced
+                uint32_t err_code;
+..\main.c(286): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(296): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(394): warning:  #177-D: variable "err_code" was declared but never referenced
+      uint32_t err_code;
+..\main.c(579): warning:  #177-D: function "scheduler_init" was declared but never referenced
+  static void scheduler_init(void)
+..\main.c: 7 warnings, 1 error
+"..\main.c" - 1 Error(s), 7 Warning(s).
+creating preprocessor file for main.c...
+compiling main.c...
+..\main.c(117): warning:  #550-D: variable "err_code" was set but never used
+        static uint32_t err_code = 0;
+..\main.c(118): warning:  #550-D: variable "file_name" was set but never used
+        static uint8_t file_name[100] = {0}, i =0;
+..\main.c(204): warning:  #177-D: variable "err_code" was declared but never referenced
+                uint32_t err_code;
+..\main.c(286): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(296): warning:  #177-D: variable "err_code" was declared but never referenced
+        uint32_t err_code =0;
+..\main.c(394): warning:  #177-D: variable "err_code" was declared but never referenced
+      uint32_t err_code;
+..\main.c(579): warning:  #177-D: function "scheduler_init" was declared but never referenced
+  static void scheduler_init(void)
+..\main.c: 7 warnings, 0 errors
+"..\main.c" - 0 Error(s), 7 Warning(s).

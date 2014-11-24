@@ -1,0 +1,17 @@
+.\_build\lis331dlh.o: ..\lis331dlh.c
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\twi_master.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf51.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\system_nrf51.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf51_bitfields.h
+.\_build\lis331dlh.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf51_deprecated.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\compiler_abstraction.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf_delay.h
+.\_build\lis331dlh.o: ..\..\..\..\..\Include\nrf_gpio.h
+.\_build\lis331dlh.o: ..\lis331dlh.h
